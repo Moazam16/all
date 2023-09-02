@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  width: 100%;
+  background-color: rgb(50, 103, 174);
+  height: 90px;
+  /* max-width: 100%; */
+  min-width: 300px;
+  min-height: 90px;
+}
+
+img[class="logo"] {
+  height: 50px;
+  width: 200px;
+  margin-left: 63px;
+  margin-top: 20px;
+  min-width: 200px;
+  max-width: 250px;
+}
+
+input[class="one"] {
+  position: relative;
+  height: 18px;
+  left: 350px;
+}
+
+input[class="two"] {
+  position: relative;
+  left: 360px;
+  height: 18px;
+}
+p[class="checkbox"] {
+  position: relative;
+  left: 675px;
+  bottom: 25px;
+  display: inline;
+  color: rgb(122, 160, 239);
+}
+p[class="password"] {
+  position: relative;
+  left: 713px;
+  bottom: 25px;
+  display: inline;
+  color: rgb(122, 160, 239);
+}
+input[class="button"] {
+  position: relative;
+  left: 370px;
+  background-color: rgb(95, 120, 171);
+  height: 25px;
+  width: 70px;
+  border: 1px solid rgb(95, 120, 171);
+  color: white;
+  font-size: large;
+  font-family: monospace;
+}
+input[class="button"]:active {
+  color: rgb(15, 2, 247);
+}
+form {
+  display: inline;
+}
+
+.main {
+  background-image: linear-gradient(to top, lightgray, gainsboro, white);
+  width: 100%;
+  height: 70vh;
+  min-width: 300px;
+}
+.span {
+  width: 54.2vw;
+  font-size: 35px;
+  letter-spacing: -2px;
+  font-weight: bolder;
+  color: rgb(33, 73, 129);
+  padding-top: 50px;
+  padding-left: 66px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.connection {
+  position: relative;
+  bottom: 190px;
+  height: 70vh;
+  width: 60vw;
+}
+.open {
+  background-color: green;
+  color: white;
+  border: none;
+  height: 20px;
+  width: 60px;
+}
+.open:active {
+  color: black;
+}
+.oned {
+  color: rgb(119, 127, 157);
+}
+td {
+  color: rgb(119, 127, 157);
+  padding: 2px;
+}
+.table {
+  display: inline-block;
+  align-items: center;
+  position: absolute;
+  bottom: 80px;
+  left: 800px;
+  padding: 50px 50px 50px 90px;
+}
+table {
+  margin-top: 29px;
+}
+[class="sign"] {
+  font-weight: bolder;
+  font-size: 38px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(33, 73, 129);
+}
+p[class="pppp"] {
+  font-size: 30px;
+  color: rgb(33, 73, 129);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.op {
+  color: rgb(33, 73, 129);
+  display: inline;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+.opp {
+  color: rgb(78, 91, 110);
+  display: inline;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
